@@ -658,15 +658,15 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: a315fc3417805b648b50caf8d81c8fb9, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 6681f58d60456ca45945151dae4838b7, type: 2}
+      objectReference: {fileID: 2100000, guid: 544da92cd1643e146a92639fe0cec680, type: 2}
     - target: {fileID: -7511558181221131132, guid: a315fc3417805b648b50caf8d81c8fb9, type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
-      objectReference: {fileID: 2100000, guid: 6681f58d60456ca45945151dae4838b7, type: 2}
+      objectReference: {fileID: 2100000, guid: 544da92cd1643e146a92639fe0cec680, type: 2}
     - target: {fileID: -7511558181221131132, guid: a315fc3417805b648b50caf8d81c8fb9, type: 3}
       propertyPath: m_Materials.Array.data[2]
       value: 
-      objectReference: {fileID: 2100000, guid: 6681f58d60456ca45945151dae4838b7, type: 2}
+      objectReference: {fileID: 2100000, guid: 544da92cd1643e146a92639fe0cec680, type: 2}
     - target: {fileID: 919132149155446097, guid: a315fc3417805b648b50caf8d81c8fb9, type: 3}
       propertyPath: m_Name
       value: pot
@@ -739,11 +739,11 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 097ed359492c2c846a3297b58fe73067, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 0893d37ea41cf76479261506faf91e01, type: 2}
+      objectReference: {fileID: 2100000, guid: db0c655ea898add43a8db7d7b1bc59dc, type: 2}
     - target: {fileID: -7511558181221131132, guid: 097ed359492c2c846a3297b58fe73067, type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
-      objectReference: {fileID: 2100000, guid: 0893d37ea41cf76479261506faf91e01, type: 2}
+      objectReference: {fileID: 2100000, guid: db0c655ea898add43a8db7d7b1bc59dc, type: 2}
     - target: {fileID: 919132149155446097, guid: 097ed359492c2c846a3297b58fe73067, type: 3}
       propertyPath: m_Name
       value: leave
@@ -1320,6 +1320,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   opponentLayer: OpponentHurtBox
   side: Right
+  collider: {fileID: 0}
   dirty: 0
   damage: 20
 --- !u!1 &2853286957758429336
@@ -1871,6 +1872,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   opponentLayer: OpponentHurtBox
   side: Left
+  collider: {fileID: 0}
   dirty: 0
   damage: 20
 --- !u!1 &4549111882009273672
