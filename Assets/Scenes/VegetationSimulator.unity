@@ -134,6 +134,7 @@ GameObject:
   - component: {fileID: 97445680}
   - component: {fileID: 97445682}
   - component: {fileID: 97445681}
+  - component: {fileID: 97445683}
   m_Layer: 0
   m_Name: Terrain
   m_TagString: Untagged
@@ -203,6 +204,20 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 97445679}
+  m_Mesh: {fileID: -2441658414131813105, guid: e1e5d23f252b2b748a973b24cafdd92d, type: 3}
+--- !u!64 &97445683
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 97445679}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: -2441658414131813105, guid: e1e5d23f252b2b748a973b24cafdd92d, type: 3}
 --- !u!1 &148099734
 GameObject:
@@ -732,6 +747,7 @@ GameObject:
   - component: {fileID: 741369211}
   - component: {fileID: 741369213}
   - component: {fileID: 741369212}
+  - component: {fileID: 741369214}
   m_Layer: 0
   m_Name: Terrain
   m_TagString: Untagged
@@ -801,6 +817,20 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 741369210}
+  m_Mesh: {fileID: -2441658414131813105, guid: e1e5d23f252b2b748a973b24cafdd92d, type: 3}
+--- !u!64 &741369214
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 741369210}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: -2441658414131813105, guid: e1e5d23f252b2b748a973b24cafdd92d, type: 3}
 --- !u!64 &763906665
 MeshCollider:
@@ -1875,6 +1905,7 @@ GameObject:
   - component: {fileID: 1683845208}
   - component: {fileID: 1683845210}
   - component: {fileID: 1683845209}
+  - component: {fileID: 1683845211}
   m_Layer: 0
   m_Name: Terrain
   m_TagString: Untagged
@@ -1944,6 +1975,20 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1683845207}
+  m_Mesh: {fileID: -2441658414131813105, guid: e1e5d23f252b2b748a973b24cafdd92d, type: 3}
+--- !u!64 &1683845211
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1683845207}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: -2441658414131813105, guid: e1e5d23f252b2b748a973b24cafdd92d, type: 3}
 --- !u!1 &1753793698
 GameObject:
@@ -6161,6 +6206,7 @@ GameObject:
   - component: {fileID: 8038264235926656223}
   - component: {fileID: 4635794000892189320}
   - component: {fileID: 2425955213251827432}
+  - component: {fileID: 7655633258484786805}
   m_Layer: 0
   m_Name: Terrain
   m_TagString: Untagged
@@ -6168,6 +6214,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!64 &7655633258484786805
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7655633258484786804}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -2441658414131813105, guid: e1e5d23f252b2b748a973b24cafdd92d, type: 3}
 --- !u!4 &7666680084271224541
 Transform:
   m_ObjectHideFlags: 0
