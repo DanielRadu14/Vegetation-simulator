@@ -26,6 +26,7 @@ public class ThirdPerson : MonoBehaviour
         transform.rotation = Quaternion.Euler(pitch, yaw, 0f);
 
         Vector3 newCameraPosition = target.position + transform.TransformDirection(cameraOffset);
+        newCameraPosition.y = Mathf.Clamp(newCameraPosition.y, 1.7f, 90);
         transform.position = Vector3.Lerp(transform.position, 
                                         newCameraPosition, 
                                         Mathf.Clamp01(Time.deltaTime * followSpeed));
