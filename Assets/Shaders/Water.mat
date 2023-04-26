@@ -40,11 +40,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - Vector1_8d20758a1a214e66a457a6bcbf118b7b: -0.17
+    - Vector1_8d20758a1a214e66a457a6bcbf118b7b: 0.08
     - _Displacement: 0.5
     - _NormalStrength: 0.376
-    - _Smoothness: 0.771
-    - _Strength: 1.624
+    - _Smoothness: 1
+    - _Strength: 0.409
     m_Colors:
     - _DeepColor: {r: 0.14901961, g: 0.4627451, b: 0.50980395, a: 0.8}
     - _ShallowColor: {r: 0.62352943, g: 0.9651467, b: 1, a: 0.5803922}
